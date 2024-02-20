@@ -1,14 +1,17 @@
 import { Chart } from "chart.js/auto";
 import React from "react";
-import { Bar, Doughnut, Line } from "react-chartjs-2";
 import "./App.css";
-import BarChart from "./components/bar.components";
+import BarChartJS from "./components/chartjs/bar.components";
+import BarRechart from "./components/recharts/bar.components";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="revenue">
-        <BarChart />
+      <div className="chartjs">
+        <BarChartJS />
+      </div>
+      <div className="rechart">
+        <BarRechart />
       </div>
     </div>
   );

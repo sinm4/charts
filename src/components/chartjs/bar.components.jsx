@@ -1,7 +1,7 @@
 import React from "react";
 import { Bar } from "react-chartjs-2"; // Note the type of chart seems to need curly brackets
 
-const BarChart = () => {
+const BarChartJS = () => {
   return (
     <Bar
       options={{
@@ -40,4 +40,4 @@ const BarChart = () => {
   );
 };
 
-export default BarChart;
+export default BarChartJS;
